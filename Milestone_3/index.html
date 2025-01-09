@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-section">
+        <h2>Enter Your Details</h2>
+
+        <!-- personal info sec -->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" placeholder="Enter your phone number">
+        </div>
+
+        <!-- education sec -->
+        <div>
+            <label for="education">Education:</label>
+            <input type="text" id="education" placeholder="Enter your education details">
+            <button type="button" id="add-education">Add Education</button>
+            <ul id="education-list"></ul>
+        </div>
+
+        <!-- skills sec -->
+        <div>
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" placeholder="Enter your skills">
+            <button type="button" id="add-skill">Add Skill</button>
+            <ul id="skills-list"></ul>
+        </div>
+
+        <!-- work experience sec -->
+        <div>
+            <label for="work-experience">Work Experience:</label>
+            <input type="text" id="work-experience" placeholder="Enter your work experience">
+            <button type="button" id="add-work">Add Work Experience</button>
+            <ul id="work-experience-list"></ul>
+        </div>
+
+        <button type="button" id="generate-resume">Generate Resume</button>
+    </div>
+
+    <!-- Resume Section (Will be populated with the data entered) -->
+    <div class="resume">
+        <h2>Resume</h2>
+        <div id="resume-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

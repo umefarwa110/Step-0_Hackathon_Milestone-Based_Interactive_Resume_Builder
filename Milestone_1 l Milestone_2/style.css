@@ -11,7 +11,7 @@ body {
     padding: 0;
     background: #f8f9fa;
     color: #000000;
-    background-color: floralwhite;
+    background-color: aliceblue;
 }
 
 .resume {
@@ -33,13 +33,13 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #111e60;
+    border: 3px solid #008bab;
     margin-bottom: 10px;
 }
 
 h1 {
     font-size: 32px;
-    color: #111e60;
+    color: #008bab;
     margin-bottom: 5px;
 }
 
@@ -53,9 +53,9 @@ section {
 
 section h2 {
     font-size: 24px;
-    color: #111e60;
+    color: #008bab;
     margin-bottom: 10px;
-    border-bottom: 2px solid #111e60;
+    border-bottom: 2px solid #008bab;
     padding-bottom: 5px;
 }
 
@@ -71,15 +71,14 @@ section ul li {
 
 .skills {
     display: none;
-  }
-  
+}
 
 button {
     display: block;
     margin: 20px auto;
     padding: 12px 30px;
     border: none;
-    background: #111e60;
+    background: #008bab;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -89,7 +88,7 @@ button {
 }
 
 button:hover {
-    background: #111e60;
+    background: #008bab;
     transform: translateY(-2px);
 }
 

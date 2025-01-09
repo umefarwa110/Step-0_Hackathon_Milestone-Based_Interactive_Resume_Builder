@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: aliceblue;
+    padding: 20px;
+}
+
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #008bab;
+    text-decoration-line: underline;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #008bab;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0097b9;
+}
+
+ul {
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.resume {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#resume-content {
+    font-size: 16px;
+}
+/* General styling for the resume */
+.resume {
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.resume h2 {
+    text-align: center;
+    color: #008bab;
+}
+
+/* Section Headers */
+.resume h3 {
+    color: #008bab;
+    border-bottom: 2px solid #008bab;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+/* Personal Information Styling */
+.resume p {
+    font-size: 1em;
+    color: #000000;
+    /* line-height: 2; */
+    margin: 5px 0;
+    padding-bottom: 14px;
+}
+
+/* Lists Styling (Education, Skills, Work Experience) */
+.resume ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resume ul li {
+    font-size: 1em;
+    color: #000000;
+    margin-bottom: 15px;
+    padding-left: 24px;
+    position: relative;
+}
+
+.resume ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #000000;
+    font-size: 1.2em;
+    top: 0;
+}
+
+/* Styling for PDF */
+@media print {
+    .resume {
+        width: 100%;
+        background-color: white;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .resume h2 {
+        font-size: 1.5em;
+    }
+
+    .resume p, .resume ul li {
+        font-size: 1.1em;
+    }
+}
